@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  background: black;
+  height: 60px;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  nav {
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: yellow;
+    background: black;
+    .navigation {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      li {
+        .active {
+          color: red;
+        }
+        margin-top: 10px;
+        a {
+          color: wheat;
+          font-size: 24px;
+          text-decoration: none;
+          &:hover {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}

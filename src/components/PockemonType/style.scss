@@ -1,0 +1,11 @@
+.pokemon__type {
+  width: 80px;
+  border-radius: 5px;
+  padding: 5px;
+  background: black;
+  color: white;
+  margin-left: 5px;
+  &:first-child {
+    margin-left: 0px;
+  }
+}

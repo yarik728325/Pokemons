@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 40%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+@media screen and (max-width: 1036px) {
+  .wrapper {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 697px) {
+  .wrapper {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+  }
+}
